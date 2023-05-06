@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 0 60px;
+}
+a{
+  font-size: 19px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(121, 0, 0);
+  margin-left: 25px;
+}
+.active{
+  color: red; 
+}
+/* kitaplar sayfası */
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px;
+  gap: 50px;
+  
+}
+.card {
+  max-width: 290px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.card:hover {
+  box-shadow: 5px 10px 15px rgba(170, 0, 0, 0.315);
+}
+.card img{
+  width:100%;
+}
+.card-body{
+  padding: 10px;
+}

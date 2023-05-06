@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import MainPage from "./pages/MainPage";
+import ProductsPage from "./pages/productsPage";
+import BookDetail from "./pages/bookDetail";
+import UndefinedPage from "./pages/undefinedPage";
+import Layout from "./deneme/dizayn";
+import Mercedes from "./deneme/mercedes";
+import AnaSayfa from "./deneme/anasayfa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/books" element={<ProductsPage />} />
+        {/* dinamik route */}
+        <Route path="/books/:bookId" element={<BookDetail />} />
+        {/* nested > iç içe route bölümleri */}
+        <Route path="/arabalar" element={<Layout />}>
+          <Route index={true} element={<AnaSayfa />} />
+          <Route path="mercedes" element={<Mercedes />} />
+        </Route>
+        {/* tanımlanmayan route */}
+        <Route path="*" element={<UndefinedPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

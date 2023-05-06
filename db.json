@@ -1,0 +1,86 @@
+{
+    "books":[
+
+        {
+            "id":1,
+            "title":"Suç ve Ceza",
+            "author":"Dostoyevski",
+            "image" :"https://picsum.photos/200",
+            "year" :18,
+            "description": "Suç ve Ceza, Raskolnikov isimli yoksul bir öğrencinin, bir tefeciyi öldürme planını ve sonrasında yaşadığı vicdan azabını anlatan bir roman. Dostoyevski'nin başyapıtlarından biri olarak kabul edilir."
+         },
+         {
+            "id":2,
+            "title":"Karamazov Kardeşler",
+            "author":"Dostoyevski",
+            "image":"https://picsum.photos/201",
+            "year":1879,
+            "description":"Karamazov Kardeşler adlı roman, aynı zamanda Dostoyevski'nin en ünlü kitaplarından biridir ve bir aile dramı hikayesini anlatır."
+        },
+        {
+            "id":3,
+            "title":"Sefiller",
+            "author":"Victor Hugo",
+            "image":"https://picsum.photos/203",
+            "year":1862,
+            "description":"Sefiller adlı roman, Victor Hugo'nun yazdığı ve Fransız Devrimi'nin zamanında geçen bir hikaye olan, Jean Valjean'ın hayatı ve mücadelesini konu alır."
+        },
+        {
+            "id":4,
+            "title":"Fareler ve İnsanlar",
+            "author":"John Steinbeck",
+            "image":"https://picsum.photos/204",
+            "year":1937,
+            "description":" Fareler ve İnsanlar John Steinbeck'in 1937 yılında yayımlanan ünlü romanıdır. Roman, iki göçmen işçi olan George ve Lennie'nin 1930'larda Amerika'da tarım işçisi olarak hayatta kalma mücadelesini anlatır."
+        },
+        {
+            "id":5,
+            "title":"1984",
+            "author":"George Orwell",
+            "image":"https://picsum.photos/205",
+            "year":1949,
+            "description":"1984, George Orwell tarafından 1949'da yayımlanan distopya türünde bir romandır. Roman, totaliter bir devlet olan Okyanusya'da yaşayan ve düzeni sorgulamaya başlayan Winston Smith'in hikayesini anlatır."
+        },
+        {
+            "id":6,
+            "title":"Savaş ve Barış",
+            "author":"Lev Tolstoy",
+            "image":"https://picsum.photos/206",
+            "year":1869,
+            "description":"Lev Tolstoy'un 1869'da yayımlanan ünlü romanıdır. Roman, Napolyon'un 1812'de Rusya'yı işgal etmesi sırasında Moskova'da yaşayan beş ailenin hayatını anlatır. Roman, sadece savaşın değil aynı zamanda aşkın ve insanın hayatındaki diğer önemli konuların da ele alındığı geniş bir yelpazeye sahiptir. "
+        },
+        {
+            "id":7,
+            "title":"Beyaz Zambaklar Ülkesinde",
+            "author":"azar Grigory Petrov",
+            "image":"https://picsum.photos/207",
+            "year":1923,
+            "description":"azar Grigory Petrov'un çeşitli aralıklarla çıktığı Finlandiya seyahatlerindeki notlardan oluşan eser 1800'lerin son döneminde Finlandiya halkının içinde bulunduğu durumu, cehaletten kurtulmak için başta Johan Vilhelm Snellman olmak üzere ülkedeki bir avuç Fin aydının verdiği olağanüstü mücadeleyi anlatır."
+        },
+        {
+            "id":8,
+            "title":"Kör Baykuş",
+            "author":"Sadık Hidayet",
+            "image":"https://picsum.photos/208",
+            "year":1936,
+            "description":"Sadık Hidayet'in İran edebiyatına damga vuran romanıdır. Roman, İranlı bir ressamın hayatını anlatır ve İran kültürünü yansıtır."
+        },
+        {
+            "id":9,
+            "title":"İşte İnsan",
+            "author":"Josef Pieper",
+            "image":"https://picsum.photos/209",
+            "year":1946,
+            "description":"Josef Pieper'in felsefi eseri. Kitap, insanın doğasını, varoluşunu ve özünü tartışır."
+        },
+        {
+            "id":10,
+            "title":"Yüzyıllık Yalnızlık",
+            "author":"Gabriel Garcia Marquez",
+            "image":"https://picsum.photos/210",
+            "year":1967,
+            "description":"Yazar, çocukluğunun geçtiği Aracataca kasabasını Macondo adıyla fantastik bir kurguyla sunmuştur ve amacını çocukluk günlerini sanatsal bir dille ardında bırakmak olarak açıklamıştır. Kitap, büyülü gerçekçilik akımının en önemli eserlerindendir."
+        }
+        
+    ]
+}
