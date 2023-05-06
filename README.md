@@ -73,4 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <p>react- router metodu ile e-ticaret web sitesi örneği geliştirilmiştir.  </p>
 
-<img src="/img/router.gif" >
+<img src="img/router.gif" >
